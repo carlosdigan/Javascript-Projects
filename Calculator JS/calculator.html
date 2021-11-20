@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+       
+        <div class="main-grid">
+            <div class="expression-box">
+                <div>=</div>
+                <div id="first-operand"></div>
+                <div id="operator"></div>
+                <div id="second-operand"></div>
+            </div>
+            <button class="number">9</button>
+            <button class="number">8</button>
+            <button class="number">7</button>
+            <button class="operator-symbol divide">÷</button>
+            <button class="number">6</button>
+            <button class="number">5</button>
+            <button class="number">4</button>
+            <button class="operator-symbol multiply">x</button>
+            <button class="number">3</button>
+            <button class="number">2</button>
+            <button class="number">1</button>
+            <button class="operator-symbol subtract">-</button>
+            <button class="number">0</button>
+            <button class="number decimal-point">.</button>
+            <button class="equals-sign">=</button>      
+            <button class="operator-symbol add">+</button>
+            <button class="clear">CLEAR</button>
+            <button class="delete">DEL</button>
+        </div>
+        <div id="history-container">
+        <ul id="history-list"> 
+            <div id="history">Calculation History</div>
+            <br>
+            <li id="history-item-1">> <p class="history-expression"></p> <p  class="history-result"></p></li>
+            <li id="history-item-2">> <p class="history-expression"></p> <p class="history-result"></p></li>
+            <li id="history-item-3">> <p class="history-expression"></p> <p class="history-result"></p></li>
+            <li id="history-item-4">> <p class="history-expression"></p> <p class="history-result"></p></li>
+            <li id="history-item-5">> <p class="history-expression"></p> <p class="history-result"></p></li>
+            <li id="history-item-6">> <p class="history-expression"></p> <p class="history-result"></p></li>
+            <li id="history-item-7">> <p class="history-expression"></p> <p class="history-result"></p></li>
+            <li id="history-item-8">> <p class="history-expression"></p> <p class="history-result"></p></li>
+            <li id="history-item-9">> <p class="history-expression"></p> <p class="history-result"></p></li>
+            <li id="history-item-10">> <p class="history-expression"> </p> <p class="history-result"></p></li>
+        </ul>      
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
