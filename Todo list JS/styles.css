@@ -1,0 +1,98 @@
+*, *::after, *::before {
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+body {
+   background-image: url("background.png");
+   background-size: 100%;
+   background-position-x: -2px;
+
+}
+
+h1 {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+.container {
+   text-align: center;
+   color: black;
+}
+
+
+.post-it {
+    display: flex;
+    float: left;
+    width: 500px;
+    height: 300px;
+    flex-direction: column;
+    row-gap: 50px;
+    background-color: rgb(255, 255, 189);
+    border: 3.5px solid;
+    border-radius: 5px;
+    margin: 0px 30px 20px 75px;
+    position: relative;
+}
+
+input {
+    border: none;
+    background: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+input, img, .task {
+ position: relative;
+ bottom: 45px;
+}
+
+.add-task {
+    position: absolute;
+    top: 250px;
+    align-self: center;
+    color: white;
+    background: red;
+    border-radius: 5px;
+    border: solid black;
+}
+
+
+.pin-img {
+    align-self: center;
+}
+input:focus {
+    outline: none;
+}
+
+.checkmark-button { 
+    width: 50px;
+    height: 50px;
+}
+
+.trash-button {
+    width: 45px;
+    height: 45px;
+}
+
+.options-container, .buttons-container {
+    display: flex;
+    align-items: center;
+}
+
+.options-container {
+  position: absolute;
+  top: 275px;
+  gap: 130px;
+  margin-left: 40px;
+}
+
+.color-selector {
+    position: absolute;
+    left: -10px;
+    top: -32.5px;
+    opacity: 0;
+}
+
