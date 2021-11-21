@@ -4,7 +4,7 @@ I created the game 'Snake' with just Javascript and the DOM API to manipulate th
 
 I have deployed this to heroku so it can be viewed on the web instead of having to clone the repository then run the localhost server yourself.
 
-The link is: https://snakegameproject.herokuapp.com/
+It can be played at: https://snakegameproject.herokuapp.com/
 
 # Note
 Please note that the first load will take a bit longer, approximately 15 - 30 seconds, then all subsequent requests will be much faster. This is because: 
